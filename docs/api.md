@@ -13,7 +13,7 @@ const behance = new Behance(params)
 
 | Key | Type | Description | Required |
 | --- | --- | --- | --- |
-| apiKey | `string` | Your developers api key. You can get one here - [Behance Api Key](https://www.behance.net/dev/api) | Yes
+| apiKey | `string` | Your developers api key. You can get one here - [Behance Api Key](https://www.behance.net/dev/register) | Yes
 | baseEndpoint | `string` | Base endpoint to use (defaults to  https://www.behance.net/v2) | No
 
 ---
