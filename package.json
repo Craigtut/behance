@@ -1,0 +1,53 @@
+{
+  "name": "behance",
+  "version": "0.0.1",
+  "description": "Promise based access to behance's api",
+  "main": "dist/behance.min.js",
+  "jsnext:main": "src/index.js",
+  "unpkg": "dist/behance.min.js",
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build && npm run test",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craigtut/behance.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "behance",
+    "behance-api"
+  ],
+  "author": "Craig Tuttle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Craigtut/behance/issues"
+  },
+  "homepage": "https://github.com/Craigtut/behance#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-compat": "^1.0.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^3.8.1",
+    "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1"
+  }
+}
