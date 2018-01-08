@@ -41,4 +41,4 @@ behance.projects(params).then(data) {
 
 ## Endpoints Supported
 
-For a list of all endpoints supported see the rest of the [endpoint docs](https://github.com/Craigtut/behance/docs#api)
+For a list of all endpoints supported see the rest of the [endpoint docs](https://github.com/Craigtut/behance/blob/master/docs/api.md)
