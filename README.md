@@ -1,6 +1,6 @@
 # Behance Api
 
-This is a promise based library for both browser and node (not work, wip) environments for pulling down data from Behance.
+This is a promise based library for both browser and node (not working yet, wip) environments for pulling down data from Behance.
 
 ## Installation
 
